@@ -13,122 +13,6 @@
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
     
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white overflow-hidden">
-  <div class="max-w-7xl mx-auto">
-    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-      <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-        <polygon points="50,0 100,0 50,100 0,100" />
-      </svg>
-
-      <div>
-        <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-          <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
-                  <span class="sr-only">Workflow</span>
-                  <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
-                </a>
-                <div class="-mr-2 flex items-center md:hidden">
-                  <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <!-- Heroicon name: outline/menu -->
-                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
-
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Features</a>
-
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Marketplace</a>
-
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
-
-              <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
-            </div>
-          </nav>
-        </div>
-
-        <!--
-          Mobile menu, show/hide based on menu open state.
-
-          Entering: "duration-150 ease-out"
-            From: "opacity-0 scale-95"
-            To: "opacity-100 scale-100"
-          Leaving: "duration-100 ease-in"
-            From: "opacity-100 scale-100"
-            To: "opacity-0 scale-95"
-        -->
-        <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-          <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-            <div class="px-5 pt-4 flex items-center justify-between">
-              <div>
-                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
-              </div>
-              <div class="-mr-2">
-                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                  <span class="sr-only">Close main menu</span>
-                  <!-- Heroicon name: outline/x -->
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="px-2 pt-2 pb-3 space-y-1">
-              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
-
-              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
-
-              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
-
-              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
-            </div>
-            <a href="#" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
-              Log in
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-        <div class="sm:text-center lg:text-left">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span class="block xl:inline">Team Chat for</span>
-            <span class="block text-indigo-600 xl:inline">Direct Sales Teams</span>
-          </h1>
-          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Allana Chat is a secure, real-time team communication platform that helps direct sales companies organize their internal team communications.
-          </p>
-          <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-            <div class="rounded-md shadow">
-              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                Get started
-              </a>
-            </div>
-            <div class="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
-                Live demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
-  </div>
-  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2F07zObPTaRDWmlo5lBH9e%2Fimages%2Fe16de785-4e56-4445-96be-445a8a8e2c99.png?alt=media" alt="">
-  </div>
-</div>
-
-
-    
 <div class="bg-white">
   <div class="relative overflow-hidden">
     <header class="relative" x-data="{ menuOpen: false }">
@@ -161,11 +45,11 @@
             </div>
           </div>
           <div class="hidden md:flex md:items-center md:space-x-6">
-            <a href="#" class="text-base font-medium text-white hover:text-gray-300">
+            <a href="https://allana.chat/" class="text-base font-medium text-white hover:text-gray-300">
               Log in
             </a>
-            <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700">
-              Start free trial
+            <a href="#Pricing" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700">
+              Get started
             </a>
           </div>
         </nav>
@@ -205,13 +89,13 @@
 
               <a href="#TestimonialsM" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Testimonials</a>
 
-              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Company</a>
+              <a href="#PricingM" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Pricing</a>
             </div>
             <div class="mt-6 px-5">
-              <a href="#" class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-purple-700 to-indigo-700 text-white font-medium hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
+              <a href="#PricingM" class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-purple-700 to-indigo-700 text-white font-medium hover:from-teal-600 hover:to-cyan-700">Get started</a>
             </div>
             <div class="mt-6 px-5">
-              <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
+              <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="https://allana.chat/" class="text-gray-900 hover:underline">Login</a></p>
             </div>
           </div>
         </div>
@@ -225,31 +109,26 @@
               <div class="lg:py-24">
                  <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                   <span class="block">Team Chat for</span>
-                  <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-cyan-400 sm:pb-5">Direct Sales Teams</span>
+                  <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-purple-700 to-indigo-700 sm:pb-5">Direct Sales Teams</span>
                 </h1>
                 <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
                   Allana Chat is a secure, real-time team communication platform that helps direct sales companies organize their internal team communications.
                 </p>
                 <div class="mt-10 sm:mt-12">
-                  <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                    <div class="sm:flex">
-                      <div class="min-w-0 flex-1">
-                        <label for="email" class="sr-only">Email address</label>
-                        <input id="email" type="email" placeholder="Enter your email" class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
-                      </div>
-                      <div class="mt-3 sm:mt-0 sm:ml-3">
-                        <button type="submit" class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-purple-700 to-indigo-700 text-white font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">Start free trial</button>
-                      </div>
+                  <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                    <div class="rounded-md shadow">
+                      <a href="#Pricing" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                        Get started
+                      </a>
                     </div>
-                    <p class="mt-3 text-sm text-gray-300 sm:mt-4">Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms or service</a>.</p>
-                  </form>
+                   </div>
                 </div>
               </div>
             </div>
             <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
               <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                 <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg" alt="">
+                <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2F07zObPTaRDWmlo5lBH9e%2Fimages%2F09d087ce-e6f4-4d72-84c5-a2ec64d20bbc.png?alt=media" alt="">
               </div>
             </div>
           </div>
@@ -299,13 +178,13 @@
               </div>
               <div class="mt-6">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Connect your team in one click
+                  Work in one place on one platform
                 </h2>
                 <p class="mt-4 text-lg text-gray-500">
-                  Allana Chat is an internal team communication platform used by top-performing individuals and teams to increase productivity, improve communication and build stronger relationships within their organization. 
+                  Connect to your growing team in one click. Distribute information and get real-time feedback.  
                 </p>
                 <div class="mt-6">
-                  <a href="#" class="inline-flex bg-gradient-to-r from-purple-700 to-indigo-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
+                  <a href="#Pricing" class="inline-flex bg-gradient-to-r from-purple-700 to-indigo-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
                     Get started
                   </a>
                 </div>
@@ -336,10 +215,10 @@
                   Join your community
                 </h2>
                 <p class="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  Simplify access to top leaders and events. Tap into resources that are available to you. Harness the momentum of your team. 
                 </p>
                 <div class="mt-6">
-                  <a href="#" class="inline-flex bg-gradient-to-r from-purple-700 to-indigo-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
+                  <a href="#Pricing" class="inline-flex bg-gradient-to-r from-purple-700 to-indigo-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
                     Get started
                   </a>
                 </div>
@@ -362,11 +241,11 @@
           <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
             <div class="lg:self-center">
               <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-                <span class="block">Ready to dive in?</span>
-                <span class="block">Get started today.</span>
+                <span class="block">Organize your conversations</span>
+                <span class="block"></span>
               </h2>
-              <p class="mt-4 text-lg leading-6 text-indigo-200">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
-              <a href="#" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50">Sign up for free</a>
+              <p class="mt-4 text-lg leading-6 text-indigo-200">Toss out the chaos of an unorganized inbox and disjointed conversations. You don’t have time for that. Let’s maximize your effort.</p>
+              <a href="#Pricing" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50">Get started</a>
             </div>
           </div>
           <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
@@ -379,12 +258,9 @@
 <!-- Feature section with grid -->
 <div id="Features" class="relative bg-white py-16 sm:py-24 lg:py-32">
   <div id="FeaturesM" class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Deploy faster</h2>
+    <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Get Started</h2>
     <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-      Everything you need to deploy your app
-    </p>
-    <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-      Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+      Why Allana?
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -509,7 +385,7 @@
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <section id="Testimonials" class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
-  <div id="#TestimonialsM" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <svg class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-workcation">
       <title id="svg-workcation">Workcation</title>
       <defs>
@@ -520,7 +396,7 @@
       <rect width="404" height="404" fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)" />
     </svg>
 
-    <div class="relative">
+    <div id="TestimonialsM" class="relative">
       <img class="mx-auto h-8" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg" alt="Workcation">
       <blockquote class="mt-10">
         <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
@@ -558,8 +434,8 @@
         <h2 class="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
           Pricing
         </h2>
-        <p class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-          Simple no-tricks pricing!
+        <p id="PricingM" class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+          Simple Pricing
         </p>
         <p class="text-xl text-gray-300">
           With flexible pricing plans and feature sets, Allana offers the right plan for every business no matter what your communication goals are!
@@ -799,8 +675,8 @@
       <span class="block text-white">Start using Workflow today.</span>
     </h2>
     <p class="mt-4 text-lg leading-6 text-cyan-100">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
-    <a href="#" class="mt-8 w-full bg-cyan-50 border border-transparent rounded-md py-3 px-5 inline-flex items-center justify-center text-base font-medium text-cyan-700 hover:bg-cyan-100 sm:w-auto">
-      Sign up for free
+    <a href="#Pricing" class="mt-8 w-full bg-cyan-50 border border-transparent rounded-md py-3 px-5 inline-flex items-center justify-center text-base font-medium text-cyan-700 hover:bg-cyan-100 sm:w-auto">
+      Get started
     </a>
   </div>
 </div>
